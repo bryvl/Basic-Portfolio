@@ -7,7 +7,7 @@ body {
 
 /* Header and Top of Page */
 header {
-    height: 100px;
+    height: 75px;
     width: 100%;
     border-bottom: 2px #bbb solid;
     background-color: white;
@@ -18,7 +18,7 @@ header {
     display: inline-block;
     height: 100%;
     width: 25%;
-    background-color: #00aa88;
+    background-color: #4aaaa5;
     color: white;
     font-size: 2.25em;
     position: relative;
@@ -82,7 +82,7 @@ nav ul li a:hover {
 
 }
 #about-me h1 {
-    color: #00aa88;
+    color: #4aaaa5;
     border-bottom: 5px #ddd solid;
     padding-bottom: 15px;
 
@@ -106,9 +106,9 @@ nav ul li a:hover {
 /* Styles for Footer */
 footer {
     width: 100%;
-    height: 75px;
+    height: 50px;
     background-color:#444;
-    border-top: 10px #00aa88 solid;
+    border-top: 8px #4aaaa5 solid;
     color: white;
     position: absolute;
     bottom: 0;
@@ -136,8 +136,45 @@ footer {
 textarea {
     width: 100%;
     border-color: #bbb;
+    overflow: hidden;
 }
 
 
 
 /* ---------------------------------portfolio.html---------------------------------- */
+
+#portfolio {
+    width: 960px;
+    height: auto;
+    min-height: 650px;
+    background-color: white;
+    border: 2px #aaa solid;
+    margin: 50px auto 150px auto;
+    padding: 25px;
+    color: #888;
+    display: block;
+}
+
+img {
+    float: left;
+    
+}
+
+.images {
+    display: inline;
+    margin: 15px;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+.project-title {
+    float: left;
+    z-index: 3;
+    position: relative;
+    bottom: -125px;
+    left: -200px;
+    height: 50px;
+    width: 200px;
+    background-color: #4aaaa5;
+    color: white;
+}
